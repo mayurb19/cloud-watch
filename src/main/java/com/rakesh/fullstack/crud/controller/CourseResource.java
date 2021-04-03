@@ -21,7 +21,7 @@ import com.rakesh.fullstack.crud.entities.Course;
 import com.rakesh.fullstack.crud.service.CoursesHardcodedService;
 
 
-@CrossOrigin(origins = { "http://localhost:3000", "http://localhost:4200","https://radiant-scrubland-09608.herokuapp.com/" })
+@CrossOrigin(origins ="https://radiant-scrubland-09608.herokuapp.com/",maxAge = 3600)
 @RestController
 @RequestMapping("/api/v1")
 public class CourseResource {
